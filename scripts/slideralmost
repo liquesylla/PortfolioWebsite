@@ -1,0 +1,49 @@
+var books = document.getElementsByClassName("books");
+const int = 0;
+for(var i=0; i<books.length; i++){
+    books[i].addEventListener("mouseenter", function(){
+        var image = this.getElementsByClassName("image");
+        var description = this.getElementsByClassName("description");
+        
+        var o = document.querySelector(".description");
+        o.style.setProperty('--opa', getComputedStyle(image[int]).getPropertyValue('opacity'));
+        o.style.setProperty('--decMargin', getComputedStyle(description[int]).getPropertyValue('margin-left'));
+        
+        console.log(getComputedStyle(description[int]).getPropertyValue('margin-left'));
+        image[int].style.animation = "fadein linear 450ms";
+        description[int].style.animation = "fadeIn linear 250ms";
+        console.log(getComputedStyle(description[int]).getPropertyValue('margin-left'));
+
+        o.style.setProperty('--finish', '100%');
+        setTimeout(function(){
+            o.style.setProperty('--decMargin', '400px');  
+        }, 200);
+       //  
+        console.log(getComputedStyle(description[int]).getPropertyValue('margin-left'));
+   
+
+    })
+    books[i].addEventListener("mouseleave", function(){
+        var image = this.getElementsByClassName("image");
+        var description = this.getElementsByClassName("description");
+        console.log(getComputedStyle(description[int]).getPropertyValue('margin-left'));
+        
+        var o = document.querySelector(".description");
+        o.style.setProperty('--opa', getComputedStyle(image[int]).getPropertyValue('opacity'));
+        o.style.setProperty('--decMargin', getComputedStyle(description[int]).getPropertyValue('margin-left'));
+        
+        
+        image[int].style.animation = "fadeout linear 450ms";
+        description[int].style.animation = "fadeOut linear 250ms";
+
+
+        o.style.setProperty('--finish', '0%');
+        setTimeout(function(){
+            o.style.setProperty('--decMargin', '50px');  
+        }, 250);
+             
+        
+    })
+
+
+}

@@ -1,0 +1,146 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    background-color:pink;
+}
+#backdrop{
+    background: url("../images/music3a.jpg");
+    width:100%;
+    height:800px;
+    font-size: 40px;
+    color:white;
+    font-family: monospace;
+    text-align:center;
+    font-weight:lighter;
+}
+#backdrop h1{
+    padding-top:250px;
+    padding-bottom:0;
+}
+
+#tops{
+    margin:0;
+    padding:0;
+    background-image:linear-gradient(black 10%, #343030);
+}
+#topartists{
+    /* background-color:#424040;*/
+     height:600px;
+ }
+#images{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+ #topartists h1{
+    margin-top:60px;
+    margin-left:60px;
+    font-size: 40px;
+    color:white;
+    font-family:monospace;
+}
+figcaption{
+    color:white;
+    text-align: center;
+    padding-top:10px;
+}
+#images img{
+    margin-top:50px;
+    height:325px;
+    border-radius: 50%;
+    width:325px;
+    transition:350ms;   
+}
+#images img:hover{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:15px;
+}
+
+#favealbums{
+    /*background-color:#d6d6d6;*/
+    height:600px;
+}
+#images img{
+    margin-top:50px;
+    height:325px;
+    border-radius: 50%;
+    width:325px;
+    transition:350ms;   
+}
+#favealbums img{
+    border-radius:0%;
+}
+
+#favealbums h1{
+    margin-top:60px;
+    margin-left:60px;
+    font-size: 40px;
+    color:rgb(95, 93, 93);
+    font-family:monospace;
+}
+#favealbums figcaption{
+    color:black;
+}
+
+#introduction{
+    background:#d6d6d6;
+    color:darkslategray;
+
+    
+}
+#introduction #intro{
+    margin-left:300px;
+   /* background-color: blueviolet;*/
+    border-left: 10px solid white; 
+    border-right: 10px solid white; 
+    font-family: monospace;
+    width:1000px;
+    margin-top:50px;
+}
+
+#intro h1{
+    margin-left:300px;
+    padding-bottom:0px;
+    font-weight: 900;
+    font-size: 40px;
+    /*background-color: brown;*/
+    width:fit-content;
+}
+#intro p{
+    margin-top:-15px;
+    width:fit-content;
+   /* background-color:cyan;*/
+    margin-left:210px;
+    font-size:20px;
+    text-align: center;
+    width:600px;
+}
+
+
+#playlists{
+    /*background-image: linear-gradient(#d6d6d6, #343030);*/
+    height:1000px;
+    background-color:beige;
+    display:flex;
+    justify-content: space-around;
+    padding-top:50px;
+}
+.table{
+    background-color:blueviolet;
+    display:flex;
+    flex-direction: column;
+    height:500px;
+    width:600px;
+
+}
+.table2{
+    background-color:brown;
+}
+.table div{
+    background-color:burlywood;
+    height:40px;
+    width:100%;
+}

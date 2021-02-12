@@ -1,0 +1,50 @@
+.book1{
+    --book1opa:0%;
+    --book1finish:0%;
+    --book1decMargin:50px;
+}
+.book1 .image, .book1 .description{
+    opacity:var(--book1finish);
+    margin-top:100px;
+   /* visibility: hidden; transition-duration: 450ms;
+    -webkit-animation: fadeIn ease-in-out 10s;
+    -moz-animation: fadeIn ease-in-out 10s;
+    -o-animation: fadeIn ease-in-out 10s;
+    -ms-animation: fadeIn ease-in-out 10s;
+    
+    */
+  }
+  .book1 .description{
+    margin-left:var(--book1decMargin);
+  }
+  
+  @keyframes fadein{
+    from{opacity:var(--book1opa);}
+    to{opacity:100%;}
+}
+@keyframes fadeout{
+    from{opacity:var(--book1opa);}
+
+    to{opacity:0%}
+}
+
+
+@keyframes fadeIn{
+  from{
+      margin-left: var(--book1decMargin);
+      opacity:var(--book1opa);
+  }
+
+    to{
+        margin-left: 400px;
+        opacity:100%;
+      } 
+  
+}
+@keyframes fadeOut{
+  from{opacity:var(--book1opa);
+      margin-left:var(--book1decMargin);}
+
+    to{opacity:0%;margin-left:50px;} 
+  
+}

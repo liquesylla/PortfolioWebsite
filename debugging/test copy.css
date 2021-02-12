@@ -1,0 +1,19 @@
+body{
+    margin:0;
+    padding:0;
+    display:block;
+    background-color: blueviolet;
+}
+#intro{
+    background-color: brown;
+    height:100%;
+}
+
+#hi{
+    margin-top:500px
+}
+
+.info{
+    background-color:cadetblue;
+    height:100%;
+}

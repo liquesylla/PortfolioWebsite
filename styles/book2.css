@@ -1,0 +1,50 @@
+.book2{
+    --book2opa:0%;
+    --book2finish:0%;
+    --book2decMargin:50px;
+}
+.book2 .image, .book2 .description{
+    opacity:var(--book2finish);
+    margin-top:100px;
+   /* visibility: hidden; transition-duration: 450ms;
+    -webkit-animation: fadeIn ease-in-out 10s;
+    -moz-animation: fadeIn ease-in-out 10s;
+    -o-animation: fadeIn ease-in-out 10s;
+    -ms-animation: fadeIn ease-in-out 10s;
+    
+    */
+  }
+  .book2 .description{
+    margin-left:var(--book2decMargin);
+  }
+  
+  @keyframes tfadein{
+    from{opacity:var(--book2opa);}
+    to{opacity:100%;}
+}
+@keyframes tfadeout{
+    from{opacity:var(--book2opa);}
+
+    to{opacity:0%}
+}
+
+
+@keyframes tfadeIn{
+  from{
+      margin-left: var(--book2decMargin);
+      opacity:var(--book2opa);
+  }
+
+    to{
+        margin-left: 400px;
+        opacity:100%;
+      } 
+  
+}
+@keyframes tfadeOut{
+  from{opacity:var(--book2opa);
+      margin-left:var(--book2decMargin);}
+
+    to{opacity:0%;margin-left:50px;} 
+  
+}
