@@ -1,0 +1,12 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:chocolate;
+    display:flex;
+    flex-direction: column;
+}
+#heading{
+    height:100%;
+    width:100%;
+    background-image: url("images/fashion.jpg");
+}
