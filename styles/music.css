@@ -122,11 +122,13 @@ figcaption{
 
 #playlists{
     /*background-image: linear-gradient(#d6d6d6, #343030);*/
-    height:1000px;
+    height:fit-content;
     background-color:beige;
     display:flex;
-    justify-content: space-around;
+    flex-direction:column;
+    gap: 50px;
     padding-top:50px;
+    
 }
 .table{
     background-color:blueviolet;
@@ -143,9 +145,17 @@ figcaption{
     background-color:burlywood;
     height:40px;
     width:100%;
+    margin-bottom:10px;
+}
+div a{
+    text-decoration: none;
+    color:white;
+}
 
+.table div:hover{
+    background-color:black;
+}
 
-
-
-    
+.table h1{
+    background-color:chartreuse;
 }
