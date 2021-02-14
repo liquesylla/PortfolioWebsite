@@ -1,0 +1,50 @@
+.book3{
+    --book3opa:0%;
+    --book3finish:0%;
+    --book3decMargin:50px;
+}
+.book3 .image, .book3 .description{
+    opacity:var(--book3finish);
+    margin-top:100px;
+   /* visibility: hidden; transition-duration: 450ms;
+    -webkit-animation: fadeIn ease-in-out 10s;
+    -moz-animation: fadeIn ease-in-out 10s;
+    -o-animation: fadeIn ease-in-out 10s;
+    -ms-animation: fadeIn ease-in-out 10s;
+    
+    */
+  }
+  .book3 .description{
+    margin-left:var(--book3decMargin);
+  }
+  
+  @keyframes tfadein{
+    from{opacity:var(--book3opa);}
+    to{opacity:100%;}
+}
+@keyframes tfadeout{
+    from{opacity:var(--book3opa);}
+
+    to{opacity:0%}
+}
+
+
+@keyframes tfadeIn{
+  from{
+      margin-left: var(--book3decMargin);
+      opacity:var(--book3opa);
+  }
+
+    to{
+        margin-left: 400px;
+        opacity:100%;
+      } 
+  
+}
+@keyframes tfadeOut{
+  from{opacity:var(--book3opa);
+      margin-left:var(--book3decMargin);}
+
+    to{opacity:0%;margin-left:50px;} 
+  
+}

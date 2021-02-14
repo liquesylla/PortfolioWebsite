@@ -1,12 +1,88 @@
 body{
     margin:0;
     padding:0;
-    background-color:chocolate;
-    display:flex;
-    flex-direction: column;
+    background:fuchsia;
+    display:block;
+    height:fit-content;
+    
+   
 }
 #heading{
-    height:100%;
-    width:100%;
-    background-image: url("images/fashion.jpg");
+   height:688px;
+   background-image: url("../images/fit5.png");
+   margin-bottom:0px;
 }
+#intro{
+    background-color:#858181;
+    color:#F7F7F7;
+    height:300px;
+    width:99.2%;
+    margin-left:5px;
+    margin-top:-20px;
+    box-shadow: -5px -8px 10px grey, 5px 5px 10px black;
+}
+#intro h1{
+    text-align: center;
+    font-size:40px;
+    font-family:monospace;
+    letter-spacing:10px;
+    color:white;
+}
+#intro h2{
+    text-align: center;
+    font-size:20px;
+    font-family:monospace;
+    letter-spacing:7px;
+    color:white;
+}
+.modelwrapper{
+    margin:0px;
+    height:fit-content;
+    width:100%;
+    background-color:pink;
+    display:flex;
+    flex-direction: column;
+    flex-shrink: inherit;
+    
+}
+
+.profile{
+    margin:0px;
+    margin-left:450px;
+    background-color:lawngreen;
+    width:600px;
+    height:300px;
+    font-family:monospace;
+    
+}
+.profile h1{
+    font-size:30px;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.grid{
+    margin-top:20px;
+    height:fit-content;
+    width:auto;
+    background-color:lightblue;
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 600px 600px 600px;
+    gap:6px 5px;
+    
+}
+.pic img{
+    height:600px;
+    width:400px;
+}
+.uneven{
+    margin-left:200px;
+    
+}
+.uneven img{
+    width:400px;
+    height:auto;
+}
+
