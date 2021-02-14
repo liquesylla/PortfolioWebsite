@@ -83,8 +83,7 @@ section p{
     margin-right:40px;
     transform: scale(1.2);
 }
-div h1{
-    /*width:100%;*/
+div h1, .upnext{
     font-family:monospace;
     letter-spacing:5px;
     margin-top: 200px; /*200*/
