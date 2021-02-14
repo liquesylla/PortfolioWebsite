@@ -9,8 +9,9 @@ for(var i=0; i<books.length; i++){
         o.style.setProperty('--book1opa', getComputedStyle(image[int]).getPropertyValue('opacity'));
         o.style.setProperty('--book1decMargin', getComputedStyle(description[int]).getPropertyValue('margin-left'));
         
-     
         image[int].style.animation = "fadein linear 450ms";
+        o.style.backgroundColor = "cornsilk";
+     
         description[int].style.animation = "fadeIn linear 250ms";
         
 
@@ -32,6 +33,7 @@ for(var i=0; i<books.length; i++){
         
         
         image[int].style.animation = "fadeout linear 450ms";
+        o.style.backgroundColor = "grey";
         description[int].style.animation = "fadeOut linear 250ms";
 
 

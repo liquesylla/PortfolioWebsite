@@ -94,13 +94,13 @@ body{
 .book2{
   background-color:#929592;
 }
-.book3 p, .book3 h1{
+.book3 p, .book3 h1, .book1 p, .book1 h1{
   color:black;
 }
-.book3 p{
+.book3 p, .book1 p{
   border-bottom: 3px solid black;
   
 }
-.book3 h1{
+.book3 h1, .book1 h1{
   border-top:3px solid black;
 }
