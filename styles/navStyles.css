@@ -16,15 +16,15 @@ nav:hover{
 
 nav ul{
     display: flex;
-    margin-top:7px;
+    margin-top:0.7%;
     margin-left:2%;
-    padding:2px;
+    padding:0.2%;
     list-style-type: none; /*This gets rid of bullet points*/
     max-width:100%;
 }
 
 nav ul li{
-    padding:0px;
+    padding:0;
     margin:2% 2% 2% 18%;
     font-family:monospace;
     font-weight:lighter;
