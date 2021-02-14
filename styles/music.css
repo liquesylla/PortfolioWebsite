@@ -3,7 +3,8 @@ body{
     flex-direction: column;
     margin:0;
     padding:0;
-    background-color:pink;
+    flex-wrap: wrap;
+    
 }
 #backdrop{
     background: url("../images/music3a.jpg");
@@ -24,16 +25,25 @@ body{
     margin:0;
     padding:0;
     background-image:linear-gradient(black 10%, #343030);
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    height:auto;
+    
+    
 }
 #topartists{
-    /* background-color:#424040;*/
-     height:600px;
+     min-height:600px;
  }
 #images{
     display:flex;
-    justify-content: space-evenly;
-    
+    flex-wrap: wrap;
+    justify-content: start;
+    width:100%;   
+    padding:0;
+    margin:0;
 }
+
  #topartists h1{
     margin-top:60px;
     margin-left:60px;
@@ -48,28 +58,23 @@ figcaption{
 }
 #images img{
     margin-top:50px;
-    height:325px;
+    height:310px;
     border-radius: 50%;
-    width:325px;
-    transition:350ms;   
+    width:310px;
+    transition:350ms;  
+    margin:0; 
+    padding:0;
 }
 #images img:hover{
-    margin-left:10px;
-    margin-right:10px;
-    margin-top:15px;
+    margin-left:3px;
+    margin-right:3px;
+    margin-top:-50px;
 }
 
 #favealbums{
-    /*background-color:#d6d6d6;*/
-    height:600px;
+    min-height:100%;
 }
-#images img{
-    margin-top:50px;
-    height:325px;
-    border-radius: 50%;
-    width:325px;
-    transition:350ms;   
-}
+
 #favealbums img{
     border-radius:0%;
 }
@@ -86,23 +91,21 @@ figcaption{
 }
 
 #introduction{
+    margin-top:2%;
     background:#d6d6d6;
     color:darkslategray;
-
-    
 }
 #introduction #intro{
-    margin-left:300px;
-   /* background-color: blueviolet;*/
+    margin-left:17%;
     border-left: 10px solid white; 
     border-right: 10px solid white; 
     font-family: monospace;
-    width:1000px;
+    width:65%;
     margin-top:50px;
 }
 
 #intro h1{
-    margin-left:300px;
+    margin-left:30%;
     padding-bottom:0px;
     font-weight: 900;
     font-size: 40px;
