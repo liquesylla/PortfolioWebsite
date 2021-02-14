@@ -7,7 +7,7 @@ html{
     scroll-behavior: smooth;
 }
 .header  img{
-    max-width: 100%;
+    min-width: 100%;
   min-height: auto;
   
 }
