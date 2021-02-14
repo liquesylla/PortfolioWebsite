@@ -7,8 +7,9 @@ html{
     scroll-behavior: smooth;
 }
 .header  img{
-  min-height: fit-content;
-  max-width: 100%;
+    max-width: 100%;
+  min-height: auto;
+  
 }
 #welcome{
     padding-bottom:10px;

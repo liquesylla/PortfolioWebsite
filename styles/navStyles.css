@@ -8,7 +8,8 @@ nav{
     cursor: pointer; /* Add a pointer on hover */
     top:0px;
     z-index: 1;
-    }
+}
+
 nav:hover{
     background-color: rgba(46, 45, 45, 0.5);
     color:white;
@@ -21,6 +22,7 @@ nav ul{
     padding:0.2%;
     list-style-type: none; /*This gets rid of bullet points*/
     max-width:100%;
+    
 }
 
 nav ul li{
@@ -33,7 +35,11 @@ nav ul li{
     width:fit-content;
 
 }
-
+@media only screen and (max-width: 900px) {
+    nav li {
+       
+  }
+}
 nav ul li:first-child{
     margin-left:0;
 }
