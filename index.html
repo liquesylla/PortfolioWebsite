@@ -1,25 +1,26 @@
+<!DOCTYPE html>
 <html>
     <head>
         <!--This is the head section, where I'm linking my two style sheets as well as making my title-->
         <title>Test</title>
         <link rel = "stylesheet" href = "styles/navStyles.css">
-        <link rel = "stylesheet" href = "styles/navOverride.css">
-        <link rel = "stylesheet" href = "styles/test.css">
+        <link rel = "stylesheet" href = "styles/index.css">
+        <link rel = "stylesheet" href = "styles/override.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
-        <nav>
+        <nav id = "navigator">
             <ul>
                 <li>HOME</li>
                 <li><a href = "books.html">BOOKS</a></li>
-                <li><a href = "index.html">JIG</a></li>
-                <li><a href = "movie.html">FLICS</a></li>
-                <li><a href = "movie.html">MUSIC</a></li>
+                <li><a href = "jig.html">JIG</a></li>
+                <li><a href = "flics.html">FLICS</a></li>
+                <li><a href = "music.html">MUSIC</a></li>
             </ul>
         </nav>
         <section id = "welcome">
-            <p id = "hi">  <!--<span style="color: #2B2F28">-->Hi.</span><br> Welcome to my Website</p>
+            <p id = "hi">  <span style="color: #2B2F28">Hi.</span><br> Welcome to my Website</p>
             <p id = "clickme"><a href = "#info">Click me</a></p>
         </section>
         
@@ -28,6 +29,35 @@
             Hi Dev Degree!
             <p> I built this website to finally put the knowledge I’ve been accumulating this past month to practical use. I elaborate more about my motivation in my personal statement, so I’ll get right into introducing what you’ll see throughout my site!</p>
         </h1>
+    </section>
+
+
+    <section class = about>
+        <div>
+            <img src = "images/nk.jpg">
+            <p>Books! I love a good novel or comic book, and in case any of you do too, I've included 3 of my favourite reads from the past couple of years.</p>
+        </div>
+        <div>
+            <img src = "images/nectar.png">
+            <p>Some of my favourite tunes. I've got a pretty diverse music taste, so you might find yourself a new track to add to your playlist.</p>
+        </div>
+        <div>
+            <img src = "images/obed/pic2.png">
+            <p>A little bit of swagger. I've included a few small influencers whose styles I think are worth checking out.</p>
+        </div>
+        <div>
+            <img src = "images/movies/aot.jpg">
+            <p>My screen time - I enjoy movies and tv shows during my downtime. Maybe you'll find some movie and show picks to add to your queue. </p>
+        </div>
+    </section>
+
+    <section class = conclusion>
+        <h1>My goal for this project</h1>
+        <p>Was to create a fun website that gave you a small glimpse into my interests and what I enjoy. I figured my resume and the other aspects of my application only went so far in showing what I am like.
+            Hopefully this is a fun and interesting way for you to come to know me a little better.
+        </p>
+        <button  type="button"><a href = "#welcome">Back to top</a> </button>
+        
     </section>
     </body>
 

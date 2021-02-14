@@ -6,13 +6,9 @@ body{
 html{
     scroll-behavior: smooth;
 }
-.header{
-    width:100%;
-    background-image: url("../images/2019-03-Ocean-Waves-1.jpg");
-    height:100%;
-    background-repeat: none;
-    position:sticky;
-    left:0px;
+.header  img{
+  min-height: fit-content;
+  max-width: 100%;
 }
 #welcome{
     padding-bottom:10px;
@@ -32,7 +28,7 @@ html{
 .welcome{
     background:#505050;
     height:300px;
-    margin-top:275px; /*-25*/
+    margin-top:100px; /*-25*/
     padding-top:125px;
 /*    border-bottom-left-radius: 400px;
     border-bottom-right-radius: 400px;*/
@@ -64,6 +60,10 @@ section p{
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+    
+}
+.wrapper2{
+    column-gap: 17%;
 }
 .item img{
     height:400px;
@@ -105,8 +105,9 @@ section.next{
     grid-template-columns: repeat(3,auto);
     height:fit-content;
     width:900px;
-    margin-left:350px;
+    margin-left:22%;
     margin-top:100px;
+    padding-bottom: 3%;
 }
 .next img{
     height:400px;
@@ -117,7 +118,9 @@ section.next{
 .next div{
     padding:0px 0px 0px 0px;
     transition:250ms all;
-    box-shadow:grey 0px 0px 2px;
+    box-shadow: -10px -10px 30px cornsilk;
+    width:fit-content;
+    
 }
 .next div:hover{
     margin-right:40px;

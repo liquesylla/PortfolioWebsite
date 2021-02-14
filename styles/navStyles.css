@@ -1,9 +1,8 @@
 
 nav{
     margin-top:0px;
-    width:100%;
-    height:fit-content;
-    padding:5px;
+    min-width:100%;
+    height:12%;
     position: fixed; /* Sit on top of the page content */
     background-color: rgba(0,0,0,0.7); /* Black background with opacity */
     /*z-index: 2; Specify a stack order in case you're using a different order for other elements */
@@ -20,13 +19,13 @@ nav ul{
     display: flex;
     margin-top:7px;
     margin-left:30px;
-    padding:5px;
+    padding:2px;
     list-style-type: none; /*This gets rid of bullet points*/
 }
 
 nav ul li{
     padding:0px;
-    margin:10px 10px 10px 300px;
+    margin:2% 2% 2% 18%;
     width: 40px;
     font-family:monospace;
     font-weight:lighter;
