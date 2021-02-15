@@ -36,8 +36,8 @@ nav ul li{
 
 }
 @media only screen and (max-width: 900px) {
-    nav li {
-       
+  nav ul{
+      width:fit-content;
   }
 }
 nav ul li:first-child{

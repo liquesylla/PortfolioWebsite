@@ -1,16 +1,17 @@
 body{
     margin:0;
     background-color:#BBBBBB;
+    max-width:100%;
     
 }
 html{
     scroll-behavior: smooth;
 }
 .header{
-    width:fit-content;
+    min-width:fit-content;
 }
 .header  img{
-    min-width: 100%;
+    width: 100%;
   min-height: auto;
   
 }
@@ -18,25 +19,21 @@ html{
     padding-bottom:10px;
     font-family: monospace;
     letter-spacing: 1px;
-    font-size:30px;
+    font-size:3rem;
     height:fit-content;
     text-align: center;
-    margin-left:500px;
+    margin-left:33%;
     color:#EEEEEE;
-    width:600px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    border-top-left-radius:20px;
+    width:fit-content;
+ 
 }
 .welcome{
     background:#505050;
-    height:300px;
-    margin-top:100px; /*-25*/
-    padding-top:125px;
-/*    border-bottom-left-radius: 400px;
-    border-bottom-right-radius: 400px;*/
+    margin:0; /*-25*/
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
+   
 section p{
     font-size:20px;
     line-height: 25px;
@@ -44,15 +41,16 @@ section p{
     letter-spacing: 2px;
     color:black;
     text-align: center;
-    width:550px;
-    margin-left:520px;
+    width:35%;
+    margin-left:31.7%;
+    font-weight: bolder;
 
 }
 .wrapper section{
     width:100%;
     position:relative;
     display:grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(12, auto);
     margin: 20px 0;
     background-color:#3F4344;
     
@@ -60,12 +58,12 @@ section p{
 /*This stuff is deletable - basically replaces the need for a specific class for each one*/
 .wrapper{
     display:grid;
-    grid-template-columns:repeat(3,100%);
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
     
 }
+
 .wrapper2{
     column-gap: 17%;
 }
@@ -93,12 +91,12 @@ div h1, .upnext{
     margin-top: 200px; /*200*/
     margin-bottom:20px;
     text-align: center;
-    margin-left:580px;
+    margin-left:37%;
     font-size:35px;
     color:#EEEEEE;
     background-color:#494949;
     font-weight: lighter;
-    width:400px;
+    width:25%;
     
 }
 
@@ -107,8 +105,8 @@ section.next{
     display:grid;
     grid-template-columns: repeat(3,auto);
     height:fit-content;
-    width:900px;
-    margin-left:22%;
+    width:55%;
+    margin-left:24%;
     margin-top:100px;
     padding-bottom: 3%;
 }
